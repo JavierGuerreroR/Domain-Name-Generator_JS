@@ -9,7 +9,17 @@ window.onload = function() {
   const pronoun = ["the", "our"];
   const adj = ["great", "big"];
   const noun = ["jogger", "racoon"];
-  const extension = [".com", ".es", ".org", ".net", ".us", ".uk", ".fr"];
+  const extension = [
+    ".com",
+    ".es",
+    ".org",
+    ".net",
+    ".us",
+    ".uk",
+    ".co.uk",
+    ".fr",
+    ".de"
+  ];
   function generadorNombreDominio(pronoun, adj, noun, extension) {
     const nombreDominio = [];
 
